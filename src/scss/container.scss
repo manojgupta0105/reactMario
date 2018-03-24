@@ -1,0 +1,36 @@
+#game-container {
+  width: 100%;
+  height: 100%;
+
+
+  > .wrapper {
+    // background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .instructions {
+    flex: 1 1 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+
+    .arrow-keys-img {
+      width: 50%;
+      margin: 15px 0;
+    }
+  }
+
+  .mario-base {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex: 1 1 80%;
+  }
+}
